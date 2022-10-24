@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="shortcut icon" href="./images/favicon.PNG" type="image/x-icon">
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- custom stylesheet  -->
+    <link rel="stylesheet" href="./custom-style.css">
+</head>
+
+<body>
+    <header>
+        <!-- bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Tenis">Tenis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Mochilas">Mochilas</a>
+                        </li>
+                        <li class="nav-item subscribe-button">
+                            <a class="nav-link active text-light" aria-current="page" href="#inscrição">Inscrição</a>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carrosel -->
+        <section class="container slider">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row p-5 d-flex align-items-center">
+                            <div class="col-lg-7">
+                                <h1>O Melhor dos Melhores</h1>
+                                <p>O headset mais completo do mundo na palma da sua mão</p>
+                                <h1>R$499.99</h1>
+                                <div class="btn btn site-btn-color">Compre Agora</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="./images/banner-images/headset.png" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-5 d-flex align-items-center">
+                            <div class="col-lg-7">
+                                <h1>A TV led que Revolucionou</h1>
+                                <p>Todas as suas perfeições na TV mais Perfeita</p>
+                                <h1>R$1299.99</h1>
+                                <div class="btn btn site-btn-color">Compre Agora</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="./images/banner-images/tv.png" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row p-5 d-flex align-items-center">
+                            <div class="col-lg-7">
+                                <h1>X-Box Series X, O X da Questão</h1>
+                                <p>O melhor dos consoles para você se divertir com seus amigos e familia.
+                                </p>
+                                <h1>R$999.99</h1>
+                                <div class="btn btn site-btn-color">Compre Agora</div>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- catagories -->
+        <section class="container my-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                        <h1>Relogio</h1>
+                        <img style="width: 30%;" src="./images/categorias/relogio.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-3 border bg-info d-flex align-items-center justify-content-between rounded-3">
+                        <h1>Mochilas</h1>
+                        <img style="width: 30%;" src="./images/categorias/bolsa.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-3 border bg-success d-flex align-items-center justify-content-between rounded-3">
+                        <h1>Tenis</h1>
+                        <img style="width: 30%;" src="./images/categorias/tenis.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Tenis  -->
+        <section id="Tenis" class="container my-3">
+            <h2>Tenis</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/tenis/tenis-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/tenis/tenis-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/tenis/tenis-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">Lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Backpack section  -->
+        <section id="Mochilas" class="container my-3">
+            <h2>Mochilas</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/bolsa/bolsa-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Super Mochila Vermelha</h5>
+                            <p class="card-text">Lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/bolsa/bolsa-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mochila De Montanha</h5>
+                            <p class="card-text">lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="./images/bolsa/bolsa-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mochila Premium</h5>
+                            <p class="card-text">lorem.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn site-btn-color">
+                                Compre Agora >>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- contact us section  -->
+        <section id="subscribe" style="height: 250px;"
+            class="container d-flex justify-content-center align-items-center slider">
+            <div>
+                <h2>CLIQUE AQUI PARA INFOS</h2>
+                <P>Para saber das novidades, promoções e mais.....</P>
+                <input style="margin-left: 55px;" type="text" placeholder="Insira seu e-mail">
+                <br>
+                <button style="margin-left: 100px; margin-top: 10px;" class="btn site-btn-color">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-3 text-center">
+        <p><small>©Todos os direitos reservados. Diego Poli. Bgi-SP.</small></p>
+    </footer>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

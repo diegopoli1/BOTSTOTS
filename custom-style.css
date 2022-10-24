@@ -1,0 +1,15 @@
+.slider{
+    background-color: #fceae8;
+    margin-top: 100px;
+}
+.site-btn-color{
+    background-color: #ff3383;
+    color: white;
+}
+.subscribe-button{
+    background-color:#ff3383; 
+    border-radius: 10px; 
+    padding: 2px; 
+    width: 90px;
+    height: 45px;
+}
